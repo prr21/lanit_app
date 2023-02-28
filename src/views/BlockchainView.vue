@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-4">
     <div class="d-flex justify-content-between">
       <button
         class="btn btn-success px-5"
