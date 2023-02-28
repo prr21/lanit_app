@@ -7,7 +7,7 @@
         :disabled="!canReturnFile"
         @click="returnLastFile"
       >
-        Return file to trading disk
+        Return file to trading desk
       </button>
     </div>
   </div>
