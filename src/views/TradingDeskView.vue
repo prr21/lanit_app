@@ -125,7 +125,9 @@ export default {
       }
 
       window.addEventListener("resize", onWindowResize)
-      this.$once("hook:destroyed", onWindowResize)
+      this.$once("hook:destroyed", () => {
+        window.removeEventListener("resize", onWindowResize)
+      })
     },
   },
 }
